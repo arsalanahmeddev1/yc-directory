@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "NEXT_USE_TURBOPACK=false next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -14,7 +14,7 @@
     "react-dom": "$react-dom"
   },
   "dependencies": {
-    "next": "15.1.6",
+    "next": "^15.2.0-canary.51",
     "next-auth": "^5.0.0-beta.25",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
